@@ -70,8 +70,15 @@ var AnimatedShape = function(container){
     
     camera.add( lightGroup[ 1 ]);
     
-    //Create Shape
-    var geometry = new THREE.SphereBufferGeometry( 1.8, 9, 9);
+    //create and adjust shape size if mobile else make it larger.
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            var geometry = new THREE.SphereBufferGeometry( 1.4, 9, 9);
+        } else {
+            var geometry = new THREE.SphereBufferGeometry( 1.8, 9, 9);
+        }
+    
+    
+    
     var material = new THREE.MeshPhongMaterial({
     color: 0xf5f5f5
     , emissive: 0x606060
