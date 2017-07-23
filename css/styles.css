@@ -564,7 +564,7 @@ form{
 
 
 form {
-  z-index: 1000;
+  z-index: 10;
   width: 50%;
   margin: 10% auto;
   min-width: 9rem;
