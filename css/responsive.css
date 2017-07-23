@@ -117,6 +117,17 @@
     .aboutMe-info h5 {
         padding-top: 130px;
     }
+    .home-content h1 {
+    font-weight: normal;
+    width: 100%;
+    text-align: center;
+    color: #357FFD;
+    font-size: 24vw;
+    font-family: f-mpl_1;
+    position: absolute;
+    bottom: 15%;
+    
+}
 }
 
 @media (max-width:325px) {
