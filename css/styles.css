@@ -364,6 +364,7 @@ nav.visible li:last-child a {
     -webkit-box-shadow: -2px 4px 23px 0px rgba(0,0,0,0.6);
     -moz-box-shadow: -2px 4px 23px 0px rgba(0,0,0,0.6);
     box-shadow: -2px 4px 23px 0px rgba(0,0,0,0.6);
+    z-index: 9999;
 }
 
 .content-Right a img{
