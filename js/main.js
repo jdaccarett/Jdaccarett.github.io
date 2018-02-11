@@ -11,7 +11,7 @@ bars.addEventListener("click", barClicked, false);
 // Set up the listener
 navbtn.addEventListener("click", barClicked, false);
 
-//settin gup the clicked Effect
+//settin up the clicked Effect
 function barClicked(){
     bars.classList.toggle('active');
     nav.classList.toggle('visible');
